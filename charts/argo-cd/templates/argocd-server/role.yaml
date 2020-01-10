@@ -43,3 +43,7 @@ rules:
   verbs:
   - create
   - list
+{{- if .Values.server.rbac }}
+{{toYaml .Values.server.rbac }}
+{{- end }}
+ 
