@@ -1,8 +1,8 @@
+{{ if .Values.openshift.auth }}
 apiVersion: batch/v1
 kind: Job
 metadata:
   name: argocd-openshift-auth-config
-  namespace: argo-cd
   annotations:
     "helm.sh/hook": post-install
     "helm.sh/hook-weight": "3"
@@ -26,12 +26,10 @@ spec:
           - >
               sleep 10s;
               HOSTNAME=$(oc get routes {{ template "argo-cd.server.fullname" . }} -o=jsonpath='{ .spec.host }');
-              echo $HOSTNAME;
               TOKEN=$(oc serviceaccounts get-token argocd-dex-server);
-              echo $TOKEN;
               API=$(oc whoami --show-server);
-              echo $API;
-              oc annotate sa argocd-dex-server serviceaccounts.openshift.io/oauth-redirecturi.argo-cd=https://$HOSTNAME/api/dex/callback;
+              oc annotate sa argocd-dex-server serviceaccounts.openshift.io/oauth-redirecturi.{{ .Release.Namespace }}=https://$HOSTNAME/api/dex/callback;
               oc patch cm argocd-cm -p "{\"data\":{\"url\": \"https://$HOSTNAME\"}}";
-              oc patch cm argocd-cm -p "{\"data\":{\"dex.config\": \"connectors:\n  - type: openshift\n    id: openshift\n    name: OpenShift\n    config:\n      issuer: $API\n      clientID: system:serviceaccount:argo-cd:argocd-dex-server\n      clientSecret: $TOKEN\n      redirectURI: https://$HOSTNAME/api/dex/callback\n      insecureCA: true\n\"}}";
+              oc patch cm argocd-cm -p "{\"data\":{\"dex.config\": \"connectors:\n  - type: openshift\n    id: openshift\n    name: OpenShift\n    config:\n      issuer: $API\n      clientID: system:serviceaccount:{{ .Release.Namespace }}:argocd-dex-server\n      clientSecret: $TOKEN\n      redirectURI: https://$HOSTNAME/api/dex/callback\n      insecureCA: true\n      groups:\n {{- range .Values.openshift.groups }}        - {{ . }}\n{{- end }}\"}}";
       restartPolicy: OnFailure
+{{ end }}

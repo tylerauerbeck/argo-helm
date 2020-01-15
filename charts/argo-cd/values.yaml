@@ -301,7 +301,9 @@ server:
   ## ArgoCD rbac config
   ## reference https://github.com/argoproj/argo-cd/blob/master/docs/operator-manual/rbac.md
   rbacConfig:
-    {}
+    policy.csv: |
+      g, labs-admins, role:admin
+      g, labs-users, role:readonly
     # policy.csv is an file containing user-defined RBAC policies and role definitions (optional).
     # Policy rules are in the form:
     #   p, subject, resource, action, object, effect
@@ -520,3 +522,9 @@ configs:
     # Argo expects the password in the secret to be bcrypt hashed. You can create this hash with
     # `htpasswd -nbBC 10 "" $ARGO_PWD | tr -d ':\n' | sed 's/$2y/$2a/'`
     # argocdServerAdminPassword:
+
+openshift:
+  auth: enabled
+  groups:
+    - lab-users
+    - lab-admins
