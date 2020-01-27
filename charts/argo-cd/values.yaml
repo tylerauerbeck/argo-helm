@@ -524,7 +524,12 @@ configs:
     # argocdServerAdminPassword:
 
 openshift:
+  enable: true
   auth: enabled
   groups:
     - lab-users
     - lab-admins
+  repoServer:
+    env:
+      - name: USER_NAME
+        value: argocd

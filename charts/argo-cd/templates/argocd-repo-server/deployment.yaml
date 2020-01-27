@@ -43,6 +43,9 @@ spec:
         image: {{ default .Values.global.image.repository .Values.repoServer.image.repository }}:{{ default .Values.global.image.tag .Values.repoServer.image.tag }}
         imagePullPolicy: {{ default .Values.global.image.imagePullPolicy .Values.repoServer.image.imagePullPolicy }}
         command:
+        {{- if .Values.openshift.enable }}
+        - uid_entrypoint.sh
+        {{- end }}
         - argocd-repo-server
         {{- if .Values.redis.enabled }}
         - --redis
@@ -57,9 +60,12 @@ spec:
         - --{{ $key }}
           {{- end }}
         {{- end }}
-        {{- if .Values.repoServer.env }}
         env:
+        {{- if .Values.repoServer.env }}
 {{- toYaml .Values.repoServer.env | nindent 8 }}
+        {{- end }}
+        {{- if and .Values.openshift.enable .Values.openshift.repoServer.env }}
+{{- toYaml .Values.openshift.repoServer.env | nindent 8 }}
         {{- end }}
         volumeMounts:
         {{- if .Values.repoServer.volumeMounts }}
