@@ -60,16 +60,16 @@ spec:
         - --{{ $key }}
           {{- end }}
         {{- end }}
+        {{- if .Values.openshift.enable }}
         env:
-        {{- if .Values.repoServer.env }}
+{{- toYaml (concat .Values.repoServer.env .Values.openshift.repoServer.env) | nindent 8 }}
+        {{- else if .Values.repoServer.env }}
+        env:
 {{- toYaml .Values.repoServer.env | nindent 8 }}
-        {{- end }}
-        {{- if and .Values.openshift.enable .Values.openshift.repoServer.env }}
-{{- toYaml .Values.openshift.repoServer.env | nindent 8 }}
         {{- end }}
         volumeMounts:
         {{- if .Values.repoServer.volumeMounts }}
-{{- toYaml .Values.repoServer.volumeMounts | nindent 8}}
+{{- toYaml .Values.repoServer.volumeMounts | nindent 8 }}
         {{- end }}
         {{- if .Values.configs.knownHosts }}
         - mountPath: /app/config/ssh
