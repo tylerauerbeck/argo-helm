@@ -3,7 +3,7 @@ entries:
   argo:
   - apiVersion: v1
     appVersion: v2.4.3
-    created: "2020-04-06T17:42:46.459327053-04:00"
+    created: "2020-04-22T18:10:36.875090521-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -24,7 +24,7 @@ entries:
     version: 0.6.5
   - apiVersion: v1
     appVersion: v2.4.3
-    created: "2020-04-06T17:42:46.456471577-04:00"
+    created: "2020-04-22T18:10:36.871968599-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -45,7 +45,7 @@ entries:
     version: 0.6.4
   - apiVersion: v1
     appVersion: v2.4.2
-    created: "2020-04-06T17:42:46.454405756-04:00"
+    created: "2020-04-22T18:10:36.868718903-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -66,7 +66,7 @@ entries:
     version: 0.6.3
   - apiVersion: v1
     appVersion: v2.4.2
-    created: "2020-04-06T17:42:46.452162557-04:00"
+    created: "2020-04-22T18:10:36.863226344-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -81,7 +81,7 @@ entries:
     version: 0.6.2
   - apiVersion: v1
     appVersion: v2.4.2
-    created: "2020-04-06T17:42:46.449793103-04:00"
+    created: "2020-04-22T18:10:36.860316164-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -96,7 +96,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: v2.3.0
-    created: "2020-04-06T17:42:46.447682827-04:00"
+    created: "2020-04-22T18:10:36.857340434-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -111,7 +111,7 @@ entries:
     version: 0.5.4
   - apiVersion: v1
     appVersion: v2.3.0
-    created: "2020-04-06T17:42:46.444130771-04:00"
+    created: "2020-04-22T18:10:36.853526058-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -126,7 +126,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: v2.3.0
-    created: "2020-04-06T17:42:46.441586543-04:00"
+    created: "2020-04-22T18:10:36.848723601-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -140,7 +140,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: v2.3.0
-    created: "2020-04-06T17:42:46.439094455-04:00"
+    created: "2020-04-22T18:10:36.842447322-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -154,7 +154,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: v2.3.0
-    created: "2020-04-06T17:42:46.436643611-04:00"
+    created: "2020-04-22T18:10:36.838646239-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -168,7 +168,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: v2.2.1
-    created: "2020-04-06T17:42:46.434082858-04:00"
+    created: "2020-04-22T18:10:36.834812792-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -181,7 +181,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.430695001-04:00"
+    created: "2020-04-22T18:10:36.830241584-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -194,7 +194,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.427881327-04:00"
+    created: "2020-04-22T18:10:36.825069811-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -207,7 +207,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.425433836-04:00"
+    created: "2020-04-22T18:10:36.817000477-04:00"
     dependencies:
     - condition: minio.install
       name: minio
@@ -220,7 +220,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.42262968-04:00"
+    created: "2020-04-22T18:10:36.81338735-04:00"
     dependencies:
     - condition: installMinio
       name: minio
@@ -233,7 +233,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.420637939-04:00"
+    created: "2020-04-22T18:10:36.810716189-04:00"
     dependencies:
     - condition: installMinio
       name: minio
@@ -247,8 +247,34 @@ entries:
     version: 0.1.0
   argo-cd:
   - apiVersion: v1
+    appVersion: 1.5.2
+    created: "2020-04-22T18:10:37.064594555-04:00"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 4.4.2
+    description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 0c44e130258c3a1a3834b1d48f19d7f4382853da4d8919a2cb939ae1e7b66b03
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - https://tylerauerbeck.github.io/argo-helm/argo-cd-2.2.8.tgz
+    version: 2.2.8
+  - apiVersion: v1
     appVersion: 1.4.2
-    created: "2020-04-06T17:42:46.571095399-04:00"
+    created: "2020-04-22T18:10:37.057001877-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: db5c90d3bfe2f5c1a798c5cc7ca6955899904ee365ae5ea572ba01c4b6256171
@@ -269,7 +295,7 @@ entries:
     version: 2.0.3
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2020-04-06T17:42:46.56770984-04:00"
+    created: "2020-04-22T18:10:37.051600285-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 7182b13bb31e7342a3668da33c87f1636a01e05c1317cd51475140965e3f027c
@@ -290,7 +316,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.563848929-04:00"
+    created: "2020-04-22T18:10:37.046253942-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 30b04aa40a419924a4874f965eee1f6e67cc72167c954e270cf8d45a6badca66
@@ -311,7 +337,7 @@ entries:
     version: 1.5.4
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.560699283-04:00"
+    created: "2020-04-22T18:10:37.040030667-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 3a104799040c238dcfce399d555f4134f9b460d263680eb28ebd531185fcce65
@@ -332,7 +358,7 @@ entries:
     version: 1.5.3
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.556623862-04:00"
+    created: "2020-04-22T18:10:37.03510288-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 7be6747d7837ab8572f4dbb6511d2b945abe412fa25e227fa68583ceba3ae78a
@@ -353,7 +379,7 @@ entries:
     version: 1.5.2
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.553364434-04:00"
+    created: "2020-04-22T18:10:37.030083815-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 0fba201afbc3d6a43723b268af76ebb0aecf6ce75c9f5187ba049f2a7349fd0a
@@ -374,7 +400,7 @@ entries:
     version: 1.5.1
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.550104745-04:00"
+    created: "2020-04-22T18:10:37.022809554-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 2d476ff974f7ae85235012c906767200a6b1e0e9497ffd64e98b85b14c7cd44d
@@ -395,7 +421,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.546631695-04:00"
+    created: "2020-04-22T18:10:37.018461515-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 0ea5eefff0661eb82a813d934d2f285732ca001f2287de84681a11b4a6c04368
@@ -416,7 +442,7 @@ entries:
     version: 1.4.8
   - apiVersion: v1
     appVersion: 1.3.6
-    created: "2020-04-06T17:42:46.544011622-04:00"
+    created: "2020-04-22T18:10:37.014317732-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 997026b7b875debd78292809f155b3d6ecf56385ab0fffc996efdc3da5ed0449
@@ -437,7 +463,7 @@ entries:
     version: 1.4.7
   - apiVersion: v1
     appVersion: 1.3.4
-    created: "2020-04-06T17:42:46.54134125-04:00"
+    created: "2020-04-22T18:10:37.010147626-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: be86c028969b15ecc65ba4508a17c32d393a53d0464593787e201136e79988f6
@@ -458,7 +484,7 @@ entries:
     version: 1.4.6
   - apiVersion: v1
     appVersion: 1.3.4
-    created: "2020-04-06T17:42:46.538076845-04:00"
+    created: "2020-04-22T18:10:37.004911471-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 74865ed53bded67b66a6b390b9901c8918d59409356078aaf3bb6ecbabfd1448
@@ -479,7 +505,7 @@ entries:
     version: 1.4.5
   - apiVersion: v1
     appVersion: 1.3.4
-    created: "2020-04-06T17:42:46.5354179-04:00"
+    created: "2020-04-22T18:10:37.000633976-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 51109393de03375860c70a7c9da3dce9396722cb1bd90db86f72024d78e4b2b5
@@ -500,7 +526,7 @@ entries:
     version: 1.4.4
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.532755861-04:00"
+    created: "2020-04-22T18:10:36.99650142-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: beab0460176f1fa8b9f7a08b8c2e0cc36ffd80bb7152748c63d46ed966c23c01
@@ -521,7 +547,7 @@ entries:
     version: 1.4.3
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.52963108-04:00"
+    created: "2020-04-22T18:10:36.992334513-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: dc834e304c358c4cb6e3fdaa1ff116cdb5d79c554a0f33972da106da4ecdd235
@@ -542,7 +568,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.52705179-04:00"
+    created: "2020-04-22T18:10:36.986985597-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: f1ceee8ac173d13f2e73408079fa9a195417b5bfcea9dd7d7a50421d8940b22d
@@ -563,7 +589,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.524526984-04:00"
+    created: "2020-04-22T18:10:36.982923116-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 7dbcd716279fe07a5264cb2e23d6dca33304f88d1ab29802c066c61e5e947c54
@@ -584,7 +610,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.521312094-04:00"
+    created: "2020-04-22T18:10:36.978901219-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: a426bcaafe535ded19d401ec37ff148f48de6f8ddbde916413a9c625fbd1375c
@@ -605,7 +631,7 @@ entries:
     version: 1.3.1
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.518763734-04:00"
+    created: "2020-04-22T18:10:36.974905994-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: e41fe04298d24be4755e4ab1923b26da98f2895d6f0dbafaef108e30f1db2b79
@@ -626,7 +652,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.516256736-04:00"
+    created: "2020-04-22T18:10:36.969550674-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: ac208a7f7296b922a4297b5a3de85ad421f24605eba4a094d6ef411946ea08cb
@@ -647,7 +673,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.513491239-04:00"
+    created: "2020-04-22T18:10:36.965619566-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 5da1e863b7523db20616e89bb1127166fe276c46ebf995c157debdd03185280e
@@ -668,7 +694,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.510669814-04:00"
+    created: "2020-04-22T18:10:36.961630025-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 9b90f173edf2186005af8cd94ffe3427d19864f19c82cd45e8617911a0c145e8
@@ -689,7 +715,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-04-06T17:42:46.508179905-04:00"
+    created: "2020-04-22T18:10:36.957695419-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 01fc4fcccbd0b79542e78bc3c32e12229e0bd43d7073a6b15bc687626bce8119
@@ -710,7 +736,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.505700144-04:00"
+    created: "2020-04-22T18:10:36.951867835-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 11bd9f586e3d0abcac08bc0e1df1b1c91440a647ae190e965a7251c60db235a7
@@ -731,7 +757,7 @@ entries:
     version: 1.0.9
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.502611527-04:00"
+    created: "2020-04-22T18:10:36.948184817-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: e37475775d12ac18135df70c0b5780a8ffd0cb14c7dbf5dcb6b45953933a3642
@@ -752,7 +778,7 @@ entries:
     version: 1.0.8
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.500061376-04:00"
+    created: "2020-04-22T18:10:36.944147943-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 6e00a23259ef2afe26b0d52e523932e1b22af40fbc2da27dd5fa527491f84463
@@ -773,7 +799,7 @@ entries:
     version: 1.0.6
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.49773713-04:00"
+    created: "2020-04-22T18:10:36.940272034-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 059be983c5d2f7d160c4b1e72096bcb781d7a8ede39bfdbdb818b9c15949b837
@@ -794,7 +820,7 @@ entries:
     version: 1.0.5
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.494973379-04:00"
+    created: "2020-04-22T18:10:36.935591929-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 84aa6f85a4842318f0c6e02cf574bfef7c2f14e642e771fdc108582d60e417bb
@@ -815,7 +841,7 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.492475689-04:00"
+    created: "2020-04-22T18:10:36.931582352-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 6732892362f1cfddc61a2d19909d4b11360ca9adaf7d327a010609b1e4e14b6d
@@ -836,7 +862,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.490082994-04:00"
+    created: "2020-04-22T18:10:36.928007337-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: ecc655f85082265487202cb6af602fc0734ec4697e2200d490e2b39604f1768d
@@ -857,7 +883,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.487645736-04:00"
+    created: "2020-04-22T18:10:36.924288794-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 1dad486f54334ce08812c805fe562abef492f782dbd6359d86f2c177526a4530
@@ -878,7 +904,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.484493074-04:00"
+    created: "2020-04-22T18:10:36.918812112-04:00"
     description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 0d4a4a0811b1ba7d60f64f6d45bc6055c484c70ab8a1ac2b06755cbdf5b5b02f
@@ -899,7 +925,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-04-06T17:42:46.482013689-04:00"
+    created: "2020-04-22T18:10:36.914442214-04:00"
     description: A Helm chart for Argo-CD
     digest: 4b974606bdba0e68ee2f9a311578bbecb1b4b462e602c50d75fbd3c7908c32e6
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -909,7 +935,7 @@ entries:
     version: 0.7.2
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-04-06T17:42:46.480059232-04:00"
+    created: "2020-04-22T18:10:36.911980225-04:00"
     description: A Helm chart for Argo-CD
     digest: f1fb9caffcdd01ac0055743499434d443808b15c694bde3dcab430c088ca5615
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -919,7 +945,7 @@ entries:
     version: 0.7.1
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-04-06T17:42:46.47829242-04:00"
+    created: "2020-04-22T18:10:36.909510276-04:00"
     description: A Helm chart for Argo-CD
     digest: e2e956e1d2053b806ba9d102119c3b03013d7778ac7579e8e6614fc5a030fceb
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -929,7 +955,7 @@ entries:
     version: 0.5.4
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-04-06T17:42:46.476052592-04:00"
+    created: "2020-04-22T18:10:36.907055607-04:00"
     description: A Helm chart for Argo-CD
     digest: 49c874957049f98a3fa77fd895d6da18c2f2d5c51caee1c09ff5e96673243783
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -939,7 +965,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-04-06T17:42:46.473775118-04:00"
+    created: "2020-04-22T18:10:36.901521161-04:00"
     description: A Helm chart for Argo-CD
     digest: 12d8316627b4d08f15935d354f6b4625948dff49d8ec5169da49f7619a4dfe87
     name: argo-cd
@@ -948,7 +974,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-04-06T17:42:46.471712938-04:00"
+    created: "2020-04-22T18:10:36.896912051-04:00"
     description: A Helm chart for Argo-CD
     digest: 4caed17f90804a112e543b366f1c45f9ce1fced32481f7f15fadbd3518049411
     name: argo-cd
@@ -957,7 +983,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-04-06T17:42:46.469690136-04:00"
+    created: "2020-04-22T18:10:36.893334522-04:00"
     description: A Helm chart for Argo-CD
     digest: 3381c2d34820a7469f3a46e7272d4c62c0ef40462632bfc8a566e734cb091a5b
     name: argo-cd
@@ -966,7 +992,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-04-06T17:42:46.466468903-04:00"
+    created: "2020-04-22T18:10:36.888759255-04:00"
     description: A Helm chart for Argo-CD
     digest: 9f0f856a8d23d9e0c8366fd5211e4970c8c83778a22e3422f080f4eeca962087
     name: argo-cd
@@ -975,7 +1001,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.1.2
-    created: "2020-04-06T17:42:46.464478743-04:00"
+    created: "2020-04-22T18:10:36.884710099-04:00"
     description: A Helm chart for Argo-CD
     digest: 66620c15bb8847eb36ac3f28bbceebf357f6166e3dc2111aaa5d9ccf8b50230b
     name: argo-cd
@@ -984,7 +1010,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.12.3
-    created: "2020-04-06T17:42:46.462781022-04:00"
+    created: "2020-04-22T18:10:36.882098372-04:00"
     description: A Helm chart for Argo-CD
     digest: 9de8900515d9b508d0f6a56b32adb2f4bda369145404406d8d7fca1c8a297eab
     name: argo-cd
@@ -993,7 +1019,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.12.1
-    created: "2020-04-06T17:42:46.461568823-04:00"
+    created: "2020-04-22T18:10:36.880207503-04:00"
     description: A Helm chart for Argo-CD
     digest: 0671a32e6dfb997c18a4f9c661d992aae79e100b374d05ecce19a93c06252d16
     name: argo-cd
@@ -1002,7 +1028,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "0.11"
-    created: "2020-04-06T17:42:46.46039142-04:00"
+    created: "2020-04-22T18:10:36.877555655-04:00"
     description: A Helm chart for Argo-CD
     digest: 227cc7113081bf8289fb218ee92db43687fe0aa2e5a60a518bed905e05a9d139
     name: argo-cd
@@ -1012,7 +1038,7 @@ entries:
   argo-ci:
   - apiVersion: v1
     appVersion: v1.0.0-alpha2
-    created: "2020-04-06T17:42:46.587131198-04:00"
+    created: "2020-04-22T18:10:37.091968879-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1031,7 +1057,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: v1.0.0-alpha2
-    created: "2020-04-06T17:42:46.584306032-04:00"
+    created: "2020-04-22T18:10:37.086856634-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1049,7 +1075,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-ci-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.582040666-04:00"
+    created: "2020-04-22T18:10:37.083318918-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1062,7 +1088,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-ci-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.580030953-04:00"
+    created: "2020-04-22T18:10:37.078057726-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1075,7 +1101,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-ci-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.577986324-04:00"
+    created: "2020-04-22T18:10:37.074868708-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1087,7 +1113,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-ci-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.575307908-04:00"
+    created: "2020-04-22T18:10:37.070397762-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1099,7 +1125,7 @@ entries:
     - https://tylerauerbeck.github.io/argo-helm/argo-ci-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.572864943-04:00"
+    created: "2020-04-22T18:10:37.067487552-04:00"
     dependencies:
     - name: argo
       repository: https://argoproj.github.io/argo-helm
@@ -1113,7 +1139,7 @@ entries:
   argo-events:
   - apiVersion: v1
     appVersion: "0.11"
-    created: "2020-04-06T17:42:46.5913365-04:00"
+    created: "2020-04-22T18:10:37.101737795-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: 54a95df99a508600def3d2827d3e1ea94a8aa82cac726d7b186de4d62f347734
     home: https://github.com/argoproj/argo-helm
@@ -1133,7 +1159,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: "0.11"
-    created: "2020-04-06T17:42:46.590959586-04:00"
+    created: "2020-04-22T18:10:37.100319818-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: 3c16fba54e0a3b6d4b532d49e69ed5f23f9f2428499e434ce4f603f24f62091b
     home: https://github.com/argoproj/argo-helm
@@ -1153,7 +1179,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "0.1"
-    created: "2020-04-06T17:42:46.590571253-04:00"
+    created: "2020-04-22T18:10:37.09820701-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: 57a6703b12713981f2462ba1f9781173f127dae4652b629a01c31b9bc2b6cf9d
     home: https://github.com/argoproj/argo-helm
@@ -1173,7 +1199,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: "0.1"
-    created: "2020-04-06T17:42:46.590194324-04:00"
+    created: "2020-04-22T18:10:37.097618329-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: d6411aa708da25416378507271613a3fa0a39b8b9c0d5b5db6b03bb1854b57ff
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -1192,7 +1218,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: "0.1"
-    created: "2020-04-06T17:42:46.589817257-04:00"
+    created: "2020-04-22T18:10:37.09702702-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: e96466acf9ac5d17278a9c5b5376fdd1f9bab6c9daefae352b7674b22ce0901a
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -1211,7 +1237,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.9.2
-    created: "2020-04-06T17:42:46.589448271-04:00"
+    created: "2020-04-22T18:10:37.096441591-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: 52b99b6579ab33fc324302a1f91cea7cbda04e4a2aa1e525dc25f8f7d52ae58f
     icon: https://raw.githubusercontent.com/argoproj/argo/master/argo.png
@@ -1230,7 +1256,7 @@ entries:
     version: 0.4.3
   - apiVersion: v1
     appVersion: 0.9.2
-    created: "2020-04-06T17:42:46.589091865-04:00"
+    created: "2020-04-22T18:10:37.095863517-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: 2e3410ff50b557fb549eaf6823bcd903aecac652a2a4c39479e3623b9036db9e
     keywords:
@@ -1248,7 +1274,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2020-04-06T17:42:46.588594637-04:00"
+    created: "2020-04-22T18:10:37.094982022-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: 96382417d1ed6e5b555145d2cdf9f34e8ab6ec4be1e1f87d3bdaa29d0151c2ae
     keywords:
@@ -1266,7 +1292,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.7.0
-    created: "2020-04-06T17:42:46.588139487-04:00"
+    created: "2020-04-22T18:10:37.094135655-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: c8556f19ded17919959d632a27a6b04b33b533b2b4eb1227e6d728c86c4137c1
     keywords:
@@ -1284,7 +1310,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-04-06T17:42:46.587663347-04:00"
+    created: "2020-04-22T18:10:37.093198601-04:00"
     description: A Helm chart to install Argo-Events in k8s Cluster
     digest: dd2390a7ec47ad584787d01ff3ce34f868fa1f4acf996dd3dd1eb920abb2fc62
     keywords:
@@ -1303,7 +1329,7 @@ entries:
     version: 0.2.0
   argo-lite:
   - apiVersion: v1
-    created: "2020-04-06T17:42:46.591617739-04:00"
+    created: "2020-04-22T18:10:37.102316675-04:00"
     description: Lighweight workflow engine for Kubernetes
     digest: b83cb7173bcd4259723fd592b3438fc31dbc0a9cac44178b6f522bc75f1591f2
     icon: https://raw.githubusercontent.com/argoproj/argo/master/saas/axops/src/ui/src/assets/favicon/favicon-32x32.png
@@ -1314,4 +1340,4 @@ entries:
     urls:
     - https://tylerauerbeck.github.io/argo-helm/argo-lite-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-06T17:42:46.417657391-04:00"
+generated: "2020-04-22T18:10:36.806825751-04:00"
